@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raytracing</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+          "imports": {
+            "three":"./build/three.module.js",
+            "OrbitControls":"./jsm/controls/OrbitControls.js",
+            "Stats":"./jsm/libs/stats.module.js",
+            "GUI":"./jsm/libs/dat.gui.module.js",
+            "EffectComposer":"./jsm/postprocessing/EffectComposer.js",
+            "RenderPass":"./jsm/postprocessing/RenderPass.js",
+            "ShaderPass":"./jsm/postprocessing/ShaderPass.js"
+          }
+        }
+    </script>
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+  <canvas id="threejs"></canvas>
+</body>
+</html>

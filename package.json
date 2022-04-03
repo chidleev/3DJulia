@@ -1,0 +1,20 @@
+{
+  "name": "raytracing",
+  "version": "1.0.0",
+  "description": "My first Node.js + Three.js project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "Chidleev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "three": "^0.134.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
